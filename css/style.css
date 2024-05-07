@@ -1,0 +1,315 @@
+.background {
+    background-image: url("../assets/background.jpg");
+}
+
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #3b5079;
+    border-radius: 0;
+    padding: 25px 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: #e9e0ce;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #e9e0ce;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #e9e0ce;
+    border-color: #e9e0ce;
+    background-color: #3b5079;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #e9e0ce;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #810000;
+    color: #242424;
+    fill: #242424;
+    border-color: #e9e0ce;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/yellowstone.jpg");
+    text-align: center;
+    color: #3b5079;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron2 {
+    background-image: url("../assets/yellowstone2.jpg");
+    text-align: center;
+    color: #3b5079;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.jumbotron2 img {
+    border: 1px solid #869cc8;
+    border-radius: 2px;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    padding: 12px;
+    border-color: #cccccc;
+    border-style: double;
+    border-width: 5px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.card:hover {
+    border-color: #810000;
+    transition: 0.7s;
+}
+
+.card .card-body h4 {
+    font-size: larger;
+}
+
+.card .card-body p {
+    font-size: medium;
+}
+
+.card .card-body a.btn {
+    margin:auto;
+}
+
+/* .card img {
+    border-radius: 50%;
+}*/
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-width: 100%;
+}
+
+.cv h3 {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size:1.5em;
+    color: #3b5079;
+    margin-bottom: 0;
+    padding-top: 1rem;
+}
+
+.cv p {
+    font-size: large;
+    color: #3b5079;
+}
+
+.cv .cv-institution {
+    font-variant: small-caps;
+    margin-bottom: 0;
+}
+
+.cv .cv-instname {
+    font-weight: bold;
+}
+
+.cv .cv-degree {
+    font-style:italic;
+}
+
+.cv .cv-employerinfo {
+    text-indent: -20px; 
+    padding-left: 31px;
+}
+
+.cv .cv-employername {
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.cv .cv-jobdescription {
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.cv hr {
+    margin-top: 0;
+}
+
+.cv ul {
+    margin-left: 20px;
+    column-gap: 50px;
+    columns: 2;
+    color: #3b5079;
+
+}
+
+.col-width {
+    width: 90%;
+}
+
+.row-center {
+    text-align: center;
+}
+
+hr {
+    border-color: #e9e0ce;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: "Garamond", serif;
+    font-style: normal;
+    background-color: #f7f1fa;
+    color: #242424;
+}
+/*
+.navbar-collapse{
+    position: absolute;
+    right: 20px;
+} */
+
+.nav-item {
+    border-left: 1px dotted #e9e0ce;
+}
+
+.nav-item-no-border {
+    border-left: 0px dotted #e9e0ce;
+}
+
+.item-center {
+    text-align:center;
+}
+
+.bottomspace {
+    margin-bottom: 1rem;
+}
+
+.image-details p {
+    font-family:Calibri,Arial, Helvetica, sans-serif;
+    font-size:small;
+    font-style:italic;
+    line-height:normal;
+}
+
+.image-details img {
+    border: 1px solid #505e79;
+}
+
+svg {
+    fill: currentColor;
+    height: auto;
+    max-width: 100vmin;
+    transform-origin: center;
+    width: 80%;
+    letter-spacing: .022em;
+  }
+
+.compass {
+    position: absolute;
+    left: 56px;
+    top: 55px;
+    font-size:larger;
+  }
+/*
+  .arrow #symbol {
+    font-size:40px;
+    line-height: normal;
+    margin-bottom:0;
+  }
+
+  .arrow p {
+    font-size:medium;
+    font-weight:bold;
+    margin-bottom:0;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .arrow a {
+    text-decoration: none;
+    color:gray;
+  }
+  */
+
+  .portfolio-image a {
+    font-size:medium;
+    font-weight:bold;
+  }
+
+  .portfolio-image img {
+    padding: 4px;
+    border: 4px double #505e79;
+    border-radius: 2px;
+  }
+
+  .portfolio-title {
+    color: #3b5079;
+  }
+
+  .portfolio-description {
+    color: #3b5079;
+  }
+
+  .cartographic-tools {
+    color: #3b5079;
+  }
+
+  .cv-text {
+    color: #3b5079;
+  }
